@@ -32,7 +32,7 @@ abstract class BaseFragment<VB : ViewDataBinding, VM : BaseViewModel> : Fragment
 
     protected lateinit var mBinding: VB
 
-    protected var mViewModel: VM? = null
+    protected lateinit var mViewModel: VM
 
     protected lateinit var mContext: Context
 

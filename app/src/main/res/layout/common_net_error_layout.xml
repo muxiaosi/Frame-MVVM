@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_net_error_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:visibility="visible">
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="174dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_net_load_fail"/>
+
+    <TextView
+            android:id="@+id/tv_net_error_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/common_margin_20"
+            android:layout_marginTop="@dimen/common_margin_20"
+            android:text="@string/net_load_fail_hint"
+            android:textColor="@color/color_gray_999"
+            android:textSize="@dimen/common_size_13"/>
+
+    <Button
+            android:id="@+id/btn_load_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/load_again"
+            android:textSize="@dimen/common_size_14"/>
+
+</LinearLayout>

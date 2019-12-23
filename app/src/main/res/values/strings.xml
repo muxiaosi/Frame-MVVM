@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">frame</string>
+    <string name="net_load_fail_hint">加载失败，请检查网络或点击刷新哦</string>
+    <string name="load_again">点击刷新</string>
+</resources>

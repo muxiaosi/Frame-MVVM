@@ -1,6 +1,6 @@
-# Frame-MMVM
+# Frame-MVVM
 
-Frame-MMVM框架采用的是Kotlin、DataBinding、LiveDate搭建的一套框架，里面已经封装好了网络请求，支持多套域名，不同域名可以设置自己的加验方式。
+Frame-MVVM框架采用的是Kotlin、DataBinding、LiveDate搭建的一套框架，里面已经封装好了网络请求，支持多套域名，不同域名可以设置自己的加验方式。
 
 ### 使用方法
 
